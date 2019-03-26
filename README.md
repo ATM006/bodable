@@ -1,2 +1,2 @@
 # bodable
-What is bodable？Bodable is a device and a service.
+What is bodable？Bodable is devices and service.
