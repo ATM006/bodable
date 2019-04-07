@@ -1,0 +1,22 @@
+{
+  "name": "bodable",
+  "version": "0.0.1",
+  "description": "What is bodable？Bodable is devices and service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "bodable test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATM006/bodable.git"
+  },
+  "keywords": [
+    "bodable"
+  ],
+  "author": "ATM006",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATM006/bodable/issues"
+  },
+  "homepage": "https://github.com/ATM006/bodable#readme"
+}
