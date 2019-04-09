@@ -5,9 +5,10 @@
 class device
 {
 	private:
-		device(int id, string name, string token);
+	    device(int id, string name, string token);
 		device(int id, string name, string token, string site_name, string site_token);
 		~device();
+
 	public:
 		bool set_id(int id);
 		bool set_name(string name);
