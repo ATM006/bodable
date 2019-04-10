@@ -1,38 +1,40 @@
 #ifndef _DEVICE_H_
 #define _DEVICE_H_
-#include <string>
 
 class device
 {
-	private:
-		device(int id, string name, string token);
-		device(int id, string name, string token, string site_name, string site_token);
-		~device();
+	public:
+		device(int id, char* name, char* token)
+		{
+			_id = id;
+			_name = name;
+			_token = token;
+		}
+		//device(int id, char* name, char* token, char* site_name, char* site_token);
+		~device(){}
 
 	public:
 		bool set_id(int id);
-		bool set_name(string name);
-		bool set_token(string token);
-		bool set_site_name(string site_name);
-		bool set_site_token(string site_token);
+		bool set_name(char* name);
+		bool set_token(char* token);
+		bool set_site_name(char* site_name);
+		bool set_site_token(char* site_token);
 
 		int get_id();
-		string get_name();
-		string get_token();
-		string get_site_name();
-		string get_site_token();
+		//char* get_name();
+		//char* get_token();
+		//char* get_site_name();
+		//char* get_site_token();
 
 	private:
 		int _id;
-		string _name;
-		string _token;
+		char* _name;
+		char* _token;
 		//Location _location;
-		string _site_name;
-		string _site_token;
+		char* _site_name;
+		char* _site_token;
 		//DevData _dev_data;
 
-	public:
-		#todo
 
 }
 
